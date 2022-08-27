@@ -21,4 +21,3 @@ change_height();
 window.addEventListener("resize", function(event) {
     change_height();
 })
-change_height();
