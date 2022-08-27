@@ -12,7 +12,6 @@ function change_height() {
     var main = document.getElementById('main');
     img_height = main_image.offsetHeight;
     img_height *= 1.1;
-    img_height -= 50;
     string_height = img_height.toString() + 'px';
     
     main.style.height = string_height;
