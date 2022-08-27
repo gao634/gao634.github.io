@@ -326,10 +326,9 @@
     }
     .footer__header {
         font-size: 1.2rem;
-        padding: 3px;
+        padding-bottom: 3px;
     }
     .footer__links {
-        font-size: 0.5rem;
-        padding-left: 3px;
+        font-size: 0.7rem;
     }
 }
