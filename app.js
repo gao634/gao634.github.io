@@ -17,7 +17,8 @@ function change_height() {
     
     main.style.height = string_height;
 }
-window.addEventListener('popstate', function (event) {
+window.addEventListener('locationchange', function (event) {
+    console.log('location changed!');
 	change_height();
 });
 change_height();
