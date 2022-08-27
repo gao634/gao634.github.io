@@ -17,9 +17,10 @@ function change_height() {
     
     main.style.height = string_height;
 }
-window.onload = function() {
-    change_height();
-  }
+//window.onload = function() {
+//    change_height();
+//  }
+change_height();
 window.addEventListener("resize", function(event) {
     change_height();
 })
