@@ -263,9 +263,9 @@
         font-size: 15px;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .main__content {
-        top: 10%;
+        top: 15%;
         margin: 5px;
         padding: 1rem;
         
@@ -316,13 +316,13 @@
     transition: all 0.3s ease;
 }
 /* Mobile footer */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .footer__bar {
         padding: 10px;
     }
     .footer__item {
         margin: 0;
-        padding: 0;
+        padding: 10px;
     }
     .footer__header {
         font-size: 1.2rem;
