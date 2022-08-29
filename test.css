@@ -198,7 +198,7 @@
 }
 .main__content {
     z-index: 3;
-    width:50%;
+    width:40%;
     top: 40%;
     padding: 2rem;
     position: absolute;
@@ -216,7 +216,7 @@
     -moz-text-fill-color: transparent;
     font-size: 3rem;
 }
-.main__content p{
+.main__content p {
     color: white;
     font-size: 1.7rem;
 }
@@ -240,7 +240,7 @@
         top: 30%;
         margin: 20px;
         padding: 2rem;
-        
+        width: 50%       
     }
     .main__content h1{
         font-size: 2.3rem;
@@ -254,7 +254,7 @@
         top: 20%;
         margin: 10px;
         padding: 2rem;
-        
+        width: 50%;
     }
     .main__content h1{
         font-size: 1.6rem;
@@ -268,7 +268,7 @@
         top: 15%;
         margin: 5px;
         padding: 1rem;
-        
+        width: 50%;
     }
     .main__content h1{
         font-size: 1.2rem;
@@ -277,10 +277,60 @@
         font-size: 12px;
     }
 }
+/* Info Styling */
+.info {
+    background-color: #212121;
+    justify-content: center;
+}
+.info__container {
+    max-width: 1300px;
+    margin: auto;
+}
+.info__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.info__item {
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom,
+    rgba(17, 17, 17, 0.4) 0%, 30%, 
+    rgba(17, 17, 17, 0.0) 100%),
+    url('/images/pic6.jpg');
+    height: 500px;
+    background-size: cover;
+}
+.info__item:nth-child(2){
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom,
+    rgba(17, 17, 17, 0.8) 0%, 40%, 
+    rgba(17, 17, 17, 0.0) 100%),
+    url('/images/pic7.jpg');
+    height: 500px;
+    background-size: cover;
+}
+.info__content {
+    color: white;
+    padding-right: 20px;
+    justify-content: center;
+}
+.info__content h1 {
+    padding-bottom: 10px;
+}
+.info__content p {
+    font-size: 1.4rem;
+}
+/* Mobile info */
 /*Footer Styling*/
 .footer__container {
     background-color: #131313;
-    height: 170px;
+    height: 220px;
     display: flex;
     align-items: center;
 }
@@ -303,12 +353,11 @@
 .footer__header {
     color: white;
     font-size: 1.5rem;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 .footer__links {
     color: white;
     font-size: 0.8rem;
-    padding-left: 5px;
     text-decoration: none;
 }
 .footer__links:hover {
@@ -317,6 +366,9 @@
 }
 /* Mobile footer */
 @media screen and (max-width: 500px) {
+    .footer__container {
+        height: 170px;
+    }
     .footer__bar {
         padding: 10px;
     }
