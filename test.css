@@ -275,7 +275,7 @@
     }
 
 }
-/* Info Styling */
+/* Info Styling for about me page*/
 .info {
     background-color: #212121;
     justify-content: center;
@@ -326,7 +326,7 @@
 .info__content p {
     font-size: 1.4rem;
 }
-
+/* Info section of home page */
 .info__button {
     text-decoration: none;
     padding: 3rem;
@@ -355,15 +355,16 @@
     background-image: linear-gradient(to bottom,
     rgba(17, 17, 17, 0.8) 0%, 40%, 
     rgba(17, 17, 17, 0.0) 100%),
-    url('/images/pic1.jpg');
+    url('/images/pic12.jpg');
 }
 
 .info__button:nth-child(4){
     background-image: linear-gradient(to bottom,
     rgba(17, 17, 17, 0.8) 0%, 40%, 
     rgba(17, 17, 17, 0.0) 100%),
-    url('/images/pic1.jpg');
+    url('/images/pic.jpg');
 }
+/* Info styling for interests page */
 .interests__item {
     padding: 3rem;
     margin: 3rem;
@@ -387,6 +388,47 @@
     rgba(17, 17, 17, 0.4) 0%, 40%, 
     rgba(17, 17, 17, 0.0) 100%),
     url('/images/pic11.jpg');
+}
+/* info styling for projects page */
+.project__item {
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,
+    rgba(17, 17, 17, 0.6) 0%, 40%, 
+    rgba(17, 17, 17, 0.0) 100%),
+    url('/images/pic.jpg');
+    height: 600px;
+    background-size: cover;
+}
+.project__button {
+    text-decoration: none;
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,
+    rgba(17, 17, 17, 1.0) 0%, 40%, 
+    rgba(17, 17, 17, 0.0) 100%),
+    url('/images/pic13.jpg');
+    height: 600px;
+    background-size: cover;
+}
+.project__button:nth-child(3){
+    text-decoration: none;
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom,
+    rgba(17, 17, 17, 0.4) 0%, 30%, 
+    rgba(17, 17, 17, 0.0) 100%),
+    url('/images/pic.jpg');
+    height: 600px;
+    background-size: cover;
+}
+.project__button:hover {
+    margin: 3.5rem;
+    height: 584px;
+    transition: all 0.3s ease;
 }
 /* Mobile info */
 @media screen and (max-width: 900px) {
