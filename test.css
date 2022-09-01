@@ -448,12 +448,37 @@
         height: 484px;
         transition: all 0.3s ease;
     }
+    .pdf__frame {
+        width: 100%;
+        padding: 1rem;
+    }
 }
 @media screen and (max-width: 620px) {
     .info__list {
         width: 100%;
         max-width: 600px;
     }
+}
+.home__btn__container {
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border: 3px solid green;
+}
+.home__btn {
+    width: 200px;
+    border: 3px solid green;
+}
+/*Pdf Styling */
+.pdf__container {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+}
+.pdf__frame {
+    padding: 3rem;
 }
 /*Footer Styling*/
 .footer__container {
