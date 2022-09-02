@@ -360,9 +360,9 @@
 
 .info__button:nth-child(4){
     background-image: linear-gradient(to bottom,
-    rgba(17, 17, 17, 0.8) 0%, 40%, 
-    rgba(17, 17, 17, 0.0) 100%),
-    url('/images/pic.jpg');
+    rgba(17, 17, 17, 1.0) 0%, 50%, 
+    rgba(17, 17, 17, 0.4) 100%),
+    url('/images/resume.jpg');
 }
 /* Info styling for interests page */
 .interests__item {
@@ -419,9 +419,9 @@
     margin: 3rem;
     border-radius: 10px;
     background-image: linear-gradient(to bottom,
-    rgba(17, 17, 17, 0.4) 0%, 30%, 
-    rgba(17, 17, 17, 0.0) 100%),
-    url('/images/pic.jpg');
+    rgba(17, 17, 17, 0.7) 0%, 50%, 
+    rgba(17, 17, 17, 0.4) 100%),
+    url('/images/pic14.jpg');
     height: 600px;
     background-size: cover;
 }
@@ -479,6 +479,26 @@
 }
 .pdf__frame {
     padding: 3rem;
+}
+.about__links {
+    list-style: none;
+    justify-content: center;
+}
+.about__items {
+    color: white;
+    padding: 3rem;
+}
+.about__items h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+.about__items p {
+    font-size: 1.2rem;
+}
+#website_repo {
+    text-decoration: none;
+    color: #ff8177;
 }
 /*Footer Styling*/
 .footer__container {
