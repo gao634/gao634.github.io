@@ -22,3 +22,11 @@ window.onload = function() {
 window.addEventListener("resize", function(event) {
     change_height();
 })
+const footerLinks = document.querySelector('.footer__links');
+function scroll() {
+    window.alert("Click");
+    window.scrollTo(window.scrollX, window.scrollY - 130);
+}
+footerLinks.addEventListener('click', function() {
+    window.setTimeout(scroll, 1000);
+});

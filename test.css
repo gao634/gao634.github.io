@@ -483,6 +483,7 @@
 .about__links {
     list-style: none;
     justify-content: center;
+    width: 60%;
 }
 .about__items {
     color: white;
@@ -496,7 +497,7 @@
 .about__items p {
     font-size: 1.2rem;
 }
-#website_repo {
+.repo_link {
     text-decoration: none;
     color: #ff8177;
 }
