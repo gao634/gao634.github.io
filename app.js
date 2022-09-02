@@ -28,8 +28,6 @@ function scroll() {
 }
 for (var i = 0; i < footerLinks.length; i++) {
     footerLinks[i].addEventListener('click', function() {
-        window.alert("Click");
-        window.setTimeout(scroll, 1000);
-        window.alert("Click 2");
+        window.setTimeout(scroll, 10);
     });
 }
