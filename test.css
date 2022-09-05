@@ -485,6 +485,16 @@
     justify-content: center;
     width: 60%;
 }
+@media screen and (max-width: 1000px) {
+    .about__links {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .about__links {
+        width: 100%;
+    }
+}
 .about__items {
     color: white;
     padding: 3rem;
