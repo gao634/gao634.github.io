@@ -475,9 +475,6 @@
     display: flex;
     justify-content: center;
 }
-.pdf__frame {
-    padding: 3rem;
-}
 .about__links {
     list-style: none;
     justify-content: center;
